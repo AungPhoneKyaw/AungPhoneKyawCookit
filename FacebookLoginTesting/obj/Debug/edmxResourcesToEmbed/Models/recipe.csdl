@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="cookingapp_latestModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="calorie">
+    <Key>
+      <PropertyRef Name="calorie_id" />
+    </Key>
+    <Property Name="calorie_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="calorie_amount" Type="Int32" />
+  </EntityType>
+  <EntityType Name="grocery_list">
+    <Key>
+      <PropertyRef Name="grocery_id" />
+    </Key>
+    <Property Name="grocery_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userid" Type="Int32" />
+    <Property Name="grocery_item" Type="String" MaxLength="800" FixedLength="false" Unicode="false" />
+    <Property Name="grocery_amount" Type="String" MaxLength="800" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="user_list" Relationship="Self.FK__grocery_l__useri__1F98B2C1" FromRole="grocery_list" ToRole="user_list" />
+  </EntityType>
+  <EntityType Name="ingredient">
+    <Key>
+      <PropertyRef Name="ingredient_id" />
+    </Key>
+    <Property Name="ingredient_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="recipe_id" Type="Int32" />
+    <Property Name="ingredient_name" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="ingredient_amount" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="recipe" Relationship="Self.FK__ingredien__recip__17036CC0" FromRole="ingredient" ToRole="recipe" />
+  </EntityType>
+  <EntityType Name="instruction">
+    <Key>
+      <PropertyRef Name="instruction_id" />
+    </Key>
+    <Property Name="instruction_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="recipe_id" Type="Int32" />
+    <Property Name="instruction_detail" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="recipe" Relationship="Self.FK__instructi__recip__02084FDA" FromRole="instruction" ToRole="recipe" />
+  </EntityType>
+  <EntityType Name="post_ingredient">
+    <Key>
+      <PropertyRef Name="post_ingredient_id" />
+    </Key>
+    <Property Name="post_ingredient_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="post_recipe_id" Type="Int32" />
+    <Property Name="post_ingredient_name" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="post_ingredient_amount" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="post_recipe" Relationship="Self.FK__post_ingr__post___339FAB6E" FromRole="post_ingredient" ToRole="post_recipe" />
+  </EntityType>
+  <EntityType Name="post_instruction">
+    <Key>
+      <PropertyRef Name="post_instruction_id" />
+    </Key>
+    <Property Name="post_instruction_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="post_recipe_id" Type="Int32" />
+    <Property Name="post_instruction_detail" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="post_recipe" Relationship="Self.FK__post_inst__post___2EDAF651" FromRole="post_instruction" ToRole="post_recipe" />
+  </EntityType>
+  <EntityType Name="post_recipe">
+    <Key>
+      <PropertyRef Name="post_recipe_id" />
+    </Key>
+    <Property Name="post_recipe_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userid" Type="Int32" />
+    <Property Name="post_ImageName" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="post_ImagePath" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="post_recipe_name" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="post_ingredient" Relationship="Self.FK__post_ingr__post___339FAB6E" FromRole="post_recipe" ToRole="post_ingredient" />
+    <NavigationProperty Name="post_instruction" Relationship="Self.FK__post_inst__post___2EDAF651" FromRole="post_recipe" ToRole="post_instruction" />
+    <NavigationProperty Name="user_list" Relationship="Self.FK__post_reci__useri__2A164134" FromRole="post_recipe" ToRole="user_list" />
+  </EntityType>
+  <EntityType Name="recipe">
+    <Key>
+      <PropertyRef Name="recipe_id" />
+    </Key>
+    <Property Name="recipe_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ImageName" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="ImagePath" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="recipe_name" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ingredients" Relationship="Self.FK__ingredien__recip__17036CC0" FromRole="recipe" ToRole="ingredient" />
+    <NavigationProperty Name="instructions" Relationship="Self.FK__instructi__recip__02084FDA" FromRole="recipe" ToRole="instruction" />
+    <NavigationProperty Name="fav_recipe" Relationship="cookingapp_latestModel.FK__fav_recip__recip__395884C4" FromRole="recipe" ToRole="fav_recipe" />
+  </EntityType>
+  <EntityType Name="user_list">
+    <Key>
+      <PropertyRef Name="userid" />
+    </Key>
+    <Property Name="userid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="user_email" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="grocery_list" Relationship="Self.FK__grocery_l__useri__1F98B2C1" FromRole="user_list" ToRole="grocery_list" />
+    <NavigationProperty Name="post_recipe" Relationship="Self.FK__post_reci__useri__2A164134" FromRole="user_list" ToRole="post_recipe" />
+    <NavigationProperty Name="fav_recipe" Relationship="cookingapp_latestModel.FK__fav_recip__useri__3864608B" FromRole="user_list" ToRole="fav_recipe" />
+  </EntityType>
+  <Association Name="FK__grocery_l__useri__1F98B2C1">
+    <End Role="user_list" Type="Self.user_list" Multiplicity="0..1" />
+    <End Role="grocery_list" Type="Self.grocery_list" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user_list">
+        <PropertyRef Name="userid" />
+      </Principal>
+      <Dependent Role="grocery_list">
+        <PropertyRef Name="userid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ingredien__recip__17036CC0">
+    <End Role="recipe" Type="Self.recipe" Multiplicity="0..1" />
+    <End Role="ingredient" Type="Self.ingredient" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="recipe">
+        <PropertyRef Name="recipe_id" />
+      </Principal>
+      <Dependent Role="ingredient">
+        <PropertyRef Name="recipe_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__instructi__recip__02084FDA">
+    <End Role="recipe" Type="Self.recipe" Multiplicity="0..1" />
+    <End Role="instruction" Type="Self.instruction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="recipe">
+        <PropertyRef Name="recipe_id" />
+      </Principal>
+      <Dependent Role="instruction">
+        <PropertyRef Name="recipe_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__post_ingr__post___339FAB6E">
+    <End Role="post_recipe" Type="Self.post_recipe" Multiplicity="0..1" />
+    <End Role="post_ingredient" Type="Self.post_ingredient" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="post_recipe">
+        <PropertyRef Name="post_recipe_id" />
+      </Principal>
+      <Dependent Role="post_ingredient">
+        <PropertyRef Name="post_recipe_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__post_inst__post___2EDAF651">
+    <End Role="post_recipe" Type="Self.post_recipe" Multiplicity="0..1" />
+    <End Role="post_instruction" Type="Self.post_instruction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="post_recipe">
+        <PropertyRef Name="post_recipe_id" />
+      </Principal>
+      <Dependent Role="post_instruction">
+        <PropertyRef Name="post_recipe_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__post_reci__useri__2A164134">
+    <End Role="user_list" Type="Self.user_list" Multiplicity="0..1" />
+    <End Role="post_recipe" Type="Self.post_recipe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user_list">
+        <PropertyRef Name="userid" />
+      </Principal>
+      <Dependent Role="post_recipe">
+        <PropertyRef Name="userid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="cookingapp_latestEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="calories" EntityType="Self.calorie" />
+    <EntitySet Name="grocery_list" EntityType="Self.grocery_list" />
+    <EntitySet Name="ingredients" EntityType="Self.ingredient" />
+    <EntitySet Name="instructions" EntityType="Self.instruction" />
+    <EntitySet Name="post_ingredient" EntityType="Self.post_ingredient" />
+    <EntitySet Name="post_instruction" EntityType="Self.post_instruction" />
+    <EntitySet Name="post_recipe" EntityType="Self.post_recipe" />
+    <EntitySet Name="recipes" EntityType="Self.recipe" />
+    <EntitySet Name="user_list" EntityType="Self.user_list" />
+    <AssociationSet Name="FK__grocery_l__useri__1F98B2C1" Association="Self.FK__grocery_l__useri__1F98B2C1">
+      <End Role="user_list" EntitySet="user_list" />
+      <End Role="grocery_list" EntitySet="grocery_list" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ingredien__recip__17036CC0" Association="Self.FK__ingredien__recip__17036CC0">
+      <End Role="recipe" EntitySet="recipes" />
+      <End Role="ingredient" EntitySet="ingredients" />
+    </AssociationSet>
+    <AssociationSet Name="FK__instructi__recip__02084FDA" Association="Self.FK__instructi__recip__02084FDA">
+      <End Role="recipe" EntitySet="recipes" />
+      <End Role="instruction" EntitySet="instructions" />
+    </AssociationSet>
+    <AssociationSet Name="FK__post_ingr__post___339FAB6E" Association="Self.FK__post_ingr__post___339FAB6E">
+      <End Role="post_recipe" EntitySet="post_recipe" />
+      <End Role="post_ingredient" EntitySet="post_ingredient" />
+    </AssociationSet>
+    <AssociationSet Name="FK__post_inst__post___2EDAF651" Association="Self.FK__post_inst__post___2EDAF651">
+      <End Role="post_recipe" EntitySet="post_recipe" />
+      <End Role="post_instruction" EntitySet="post_instruction" />
+    </AssociationSet>
+    <AssociationSet Name="FK__post_reci__useri__2A164134" Association="Self.FK__post_reci__useri__2A164134">
+      <End Role="user_list" EntitySet="user_list" />
+      <End Role="post_recipe" EntitySet="post_recipe" />
+    </AssociationSet>
+    <EntitySet Name="fav_recipe" EntityType="cookingapp_latestModel.fav_recipe" />
+    <AssociationSet Name="FK__fav_recip__recip__395884C4" Association="cookingapp_latestModel.FK__fav_recip__recip__395884C4">
+      <End Role="recipe" EntitySet="recipes" />
+      <End Role="fav_recipe" EntitySet="fav_recipe" />
+    </AssociationSet>
+    <AssociationSet Name="FK__fav_recip__useri__3864608B" Association="cookingapp_latestModel.FK__fav_recip__useri__3864608B">
+      <End Role="user_list" EntitySet="user_list" />
+      <End Role="fav_recipe" EntitySet="fav_recipe" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="fav_recipe">
+    <Key>
+      <PropertyRef Name="fav_recipe_id" />
+    </Key>
+    <Property Name="fav_recipe_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userid" Type="Int32" />
+    <Property Name="recipe_id" Type="Int32" />
+    <NavigationProperty Name="recipe" Relationship="cookingapp_latestModel.FK__fav_recip__recip__395884C4" FromRole="fav_recipe" ToRole="recipe" />
+    <NavigationProperty Name="user_list" Relationship="cookingapp_latestModel.FK__fav_recip__useri__3864608B" FromRole="fav_recipe" ToRole="user_list" />
+  </EntityType>
+  <Association Name="FK__fav_recip__recip__395884C4">
+    <End Type="cookingapp_latestModel.recipe" Role="recipe" Multiplicity="0..1" />
+    <End Type="cookingapp_latestModel.fav_recipe" Role="fav_recipe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="recipe">
+        <PropertyRef Name="recipe_id" />
+      </Principal>
+      <Dependent Role="fav_recipe">
+        <PropertyRef Name="recipe_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__fav_recip__useri__3864608B">
+    <End Type="cookingapp_latestModel.user_list" Role="user_list" Multiplicity="0..1" />
+    <End Type="cookingapp_latestModel.fav_recipe" Role="fav_recipe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="user_list">
+        <PropertyRef Name="userid" />
+      </Principal>
+      <Dependent Role="fav_recipe">
+        <PropertyRef Name="userid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

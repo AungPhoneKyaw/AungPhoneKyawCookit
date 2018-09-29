@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="cookingapp_latestModelStoreContainer" CdmEntityContainer="cookingapp_latestEntities">
+    <EntitySetMapping Name="calories">
+      <EntityTypeMapping TypeName="cookingapp_latestModel.calorie">
+        <MappingFragment StoreEntitySet="calorie">
+          <ScalarProperty Name="calorie_id" ColumnName="calorie_id" />
+          <ScalarProperty Name="calorie_amount" ColumnName="calorie_amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="grocery_list">
+      <EntityTypeMapping TypeName="cookingapp_latestModel.grocery_list">
+        <MappingFragment StoreEntitySet="grocery_list">
+          <ScalarProperty Name="grocery_id" ColumnName="grocery_id" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="grocery_item" ColumnName="grocery_item" />
+          <ScalarProperty Name="grocery_amount" ColumnName="grocery_amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ingredients">
+      <EntityTypeMapping TypeName="cookingapp_latestModel.ingredient">
+        <MappingFragment StoreEntitySet="ingredient">
+          <ScalarProperty Name="ingredient_id" ColumnName="ingredient_id" />
+          <ScalarProperty Name="recipe_id" ColumnName="recipe_id" />
+          <ScalarProperty Name="ingredient_name" ColumnName="ingredient_name" />
+          <ScalarProperty Name="ingredient_amount" ColumnName="ingredient_amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="instructions">
+      <EntityTypeMapping TypeName="cookingapp_latestModel.instruction">
+        <MappingFragment StoreEntitySet="instruction">
+          <ScalarProperty Name="instruction_id" ColumnName="instruction_id" />
+          <ScalarProperty Name="recipe_id" ColumnName="recipe_id" />
+          <ScalarProperty Name="instruction_detail" ColumnName="instruction_detail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="post_ingredient">
+      <EntityTypeMapping TypeName="cookingapp_latestModel.post_ingredient">
+        <MappingFragment StoreEntitySet="post_ingredient">
+          <ScalarProperty Name="post_ingredient_id" ColumnName="post_ingredient_id" />
+          <ScalarProperty Name="post_recipe_id" ColumnName="post_recipe_id" />
+          <ScalarProperty Name="post_ingredient_name" ColumnName="post_ingredient_name" />
+          <ScalarProperty Name="post_ingredient_amount" ColumnName="post_ingredient_amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="post_instruction">
+      <EntityTypeMapping TypeName="cookingapp_latestModel.post_instruction">
+        <MappingFragment StoreEntitySet="post_instruction">
+          <ScalarProperty Name="post_instruction_id" ColumnName="post_instruction_id" />
+          <ScalarProperty Name="post_recipe_id" ColumnName="post_recipe_id" />
+          <ScalarProperty Name="post_instruction_detail" ColumnName="post_instruction_detail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="post_recipe">
+      <EntityTypeMapping TypeName="cookingapp_latestModel.post_recipe">
+        <MappingFragment StoreEntitySet="post_recipe">
+          <ScalarProperty Name="post_recipe_id" ColumnName="post_recipe_id" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="post_ImageName" ColumnName="post_ImageName" />
+          <ScalarProperty Name="post_ImagePath" ColumnName="post_ImagePath" />
+          <ScalarProperty Name="post_recipe_name" ColumnName="post_recipe_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="recipes">
+      <EntityTypeMapping TypeName="cookingapp_latestModel.recipe">
+        <MappingFragment StoreEntitySet="recipe">
+          <ScalarProperty Name="recipe_id" ColumnName="recipe_id" />
+          <ScalarProperty Name="ImageName" ColumnName="ImageName" />
+          <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+          <ScalarProperty Name="recipe_name" ColumnName="recipe_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="user_list">
+      <EntityTypeMapping TypeName="cookingapp_latestModel.user_list">
+        <MappingFragment StoreEntitySet="user_list">
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="user_email" ColumnName="user_email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="fav_recipe">
+      <EntityTypeMapping TypeName="cookingapp_latestModel.fav_recipe">
+        <MappingFragment StoreEntitySet="fav_recipe">
+          <ScalarProperty Name="recipe_id" ColumnName="recipe_id" />
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="fav_recipe_id" ColumnName="fav_recipe_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

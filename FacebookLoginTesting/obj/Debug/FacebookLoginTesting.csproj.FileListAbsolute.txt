@@ -1,0 +1,494 @@
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\ApplicationInsights.config
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\csc.exe
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\csc.exe.config
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\csc.rsp
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\csi.exe
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\csi.rsp
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\System.AppContext.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\System.Collections.Immutable.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\System.IO.FileSystem.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\System.Reflection.Metadata.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\vbc.exe
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\vbc.exe.config
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\vbc.rsp
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\VBCSCompiler.exe
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\VBCSCompiler.exe.config
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\FacebookLoginTesting.dll.config
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\FacebookLoginTesting.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\FacebookLoginTesting.pdb
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Antlr3.Runtime.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\EntityFramework.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\EntityFramework.SqlServer.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.Agent.Intercept.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.DependencyCollector.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.Web.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.WindowsServer.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.ApplicationInsights.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Core.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.Cookies.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.Facebook.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.Google.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.OAuth.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.Twitter.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Web.Infrastructure.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Newtonsoft.Json.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Owin.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.Helpers.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.Mvc.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.Optimization.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.Razor.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.WebPages.Deployment.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.WebPages.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.WebPages.Razor.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\WebGrease.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.Facebook.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Newtonsoft.Json.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.Helpers.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.Mvc.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.Optimization.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.Razor.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.WebPages.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.WebPages.Deployment.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.WebPages.Razor.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Antlr3.Runtime.pdb
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\EntityFramework.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\EntityFramework.SqlServer.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Core.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.Cookies.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.OAuth.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.Google.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.Twitter.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.ApplicationInsights.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.DependencyCollector.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.WindowsServer.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.Web.xml
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\obj\Debug\FacebookLoginTesting.csprojResolveAssemblyReference.cache
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\obj\Debug\FacebookLoginTesting.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\obj\Debug\FacebookLoginTesting.pdb
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Facebook.dll
+E:\UOG web\FacebookLoginTesting\FacebookLoginTesting\bin\Facebook.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\ApplicationInsights.config
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\csc.exe
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\csc.exe.config
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\csc.rsp
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\csi.exe
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\csi.rsp
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\System.AppContext.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\System.Collections.Immutable.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\System.IO.FileSystem.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\System.Reflection.Metadata.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\vbc.exe
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\vbc.exe.config
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\vbc.rsp
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\VBCSCompiler.exe
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\roslyn\VBCSCompiler.exe.config
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\FacebookLoginTesting.dll.config
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\FacebookLoginTesting.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\FacebookLoginTesting.pdb
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Antlr3.Runtime.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\EntityFramework.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\EntityFramework.SqlServer.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Facebook.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.Agent.Intercept.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.DependencyCollector.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.Web.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.WindowsServer.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.ApplicationInsights.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Core.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.Cookies.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.Facebook.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.Google.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.OAuth.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.Twitter.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Web.Infrastructure.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Newtonsoft.Json.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Owin.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.Helpers.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.Mvc.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.Optimization.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.Razor.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.WebPages.Deployment.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.WebPages.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.WebPages.Razor.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\WebGrease.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Facebook.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.Facebook.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Newtonsoft.Json.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.Helpers.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.Mvc.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.Optimization.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.Razor.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.WebPages.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.WebPages.Deployment.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\System.Web.WebPages.Razor.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Antlr3.Runtime.pdb
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\EntityFramework.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\EntityFramework.SqlServer.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Core.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.Cookies.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.OAuth.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.Google.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.Twitter.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.ApplicationInsights.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.DependencyCollector.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.WindowsServer.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\bin\Microsoft.AI.Web.xml
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\obj\Debug\FacebookLoginTesting.csprojResolveAssemblyReference.cache
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\obj\Debug\FacebookLoginTesting.dll
+E:\UOG\Web\C in class\FacebookLoginTesting\FacebookLoginTesting\obj\Debug\FacebookLoginTesting.pdb
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\ApplicationInsights.config
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\csc.exe
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\csc.exe.config
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\csc.rsp
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\csi.exe
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\csi.rsp
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\System.AppContext.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\System.Collections.Immutable.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\System.IO.FileSystem.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\System.Reflection.Metadata.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\vbc.exe
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\vbc.exe.config
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\vbc.rsp
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\VBCSCompiler.exe
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\VBCSCompiler.exe.config
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\FacebookLoginTesting.dll.config
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\FacebookLoginTesting.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\FacebookLoginTesting.pdb
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Antlr3.Runtime.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\EntityFramework.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\EntityFramework.SqlServer.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Facebook.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.Agent.Intercept.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.DependencyCollector.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.Web.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.WindowsServer.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.ApplicationInsights.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Core.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.Cookies.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.Facebook.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.Google.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.OAuth.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.Twitter.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Web.Infrastructure.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Newtonsoft.Json.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Owin.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.Helpers.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.Mvc.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.Optimization.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.Razor.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.WebPages.Deployment.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.WebPages.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.WebPages.Razor.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\WebGrease.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Facebook.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.Facebook.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Newtonsoft.Json.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.Helpers.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.Mvc.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.Optimization.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.Razor.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.WebPages.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.WebPages.Deployment.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.WebPages.Razor.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Antlr3.Runtime.pdb
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\EntityFramework.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\EntityFramework.SqlServer.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Core.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.Cookies.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.OAuth.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.Google.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.Twitter.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.ApplicationInsights.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.DependencyCollector.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.WindowsServer.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.Web.xml
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\obj\Debug\FacebookLoginTesting.csprojResolveAssemblyReference.cache
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\obj\Debug\FacebookLoginTesting.dll
+E:\UOG\Web\C in class\FacebookLoginTesting prototype\FacebookLoginTesting\obj\Debug\FacebookLoginTesting.pdb
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\ApplicationInsights.config
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\csc.exe
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\csc.exe.config
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\csc.rsp
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\csi.exe
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\csi.rsp
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\System.AppContext.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\System.Collections.Immutable.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\System.IO.FileSystem.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\System.Reflection.Metadata.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\vbc.exe
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\vbc.exe.config
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\vbc.rsp
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\VBCSCompiler.exe
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\roslyn\VBCSCompiler.exe.config
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\FacebookLoginTesting.dll.config
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\FacebookLoginTesting.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\FacebookLoginTesting.pdb
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Antlr3.Runtime.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\EntityFramework.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\EntityFramework.SqlServer.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Facebook.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.Agent.Intercept.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.DependencyCollector.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.Web.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.WindowsServer.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.ApplicationInsights.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Core.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.Cookies.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.Facebook.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.Google.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.OAuth.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.Twitter.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Web.Infrastructure.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Newtonsoft.Json.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Owin.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.Helpers.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.Mvc.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.Optimization.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.Razor.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.WebPages.Deployment.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.WebPages.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.WebPages.Razor.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\WebGrease.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Facebook.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.Facebook.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Newtonsoft.Json.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.Helpers.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.Mvc.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.Optimization.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.Razor.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.WebPages.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.WebPages.Deployment.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\System.Web.WebPages.Razor.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Antlr3.Runtime.pdb
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\EntityFramework.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\EntityFramework.SqlServer.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Core.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.Cookies.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.OAuth.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.Google.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.Twitter.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.ApplicationInsights.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.DependencyCollector.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.WindowsServer.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\bin\Microsoft.AI.Web.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\obj\Debug\FacebookLoginTesting.csprojResolveAssemblyReference.cache
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\obj\Debug\FacebookLoginTesting.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\facebook\FacebookLoginTesting prototype\FacebookLoginTesting\obj\Debug\FacebookLoginTesting.pdb
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\ApplicationInsights.config
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\csc.exe
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\csc.exe.config
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\csc.rsp
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\csi.exe
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\csi.rsp
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\System.AppContext.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\System.Collections.Immutable.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\System.IO.FileSystem.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\System.Reflection.Metadata.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\vbc.exe
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\vbc.exe.config
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\vbc.rsp
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\VBCSCompiler.exe
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\roslyn\VBCSCompiler.exe.config
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\FacebookLoginTesting.dll.config
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\FacebookLoginTesting.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\FacebookLoginTesting.pdb
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Antlr3.Runtime.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\EntityFramework.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\EntityFramework.SqlServer.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Facebook.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.AI.Agent.Intercept.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.AI.DependencyCollector.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.AI.Web.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.AI.WindowsServer.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.ApplicationInsights.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Core.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Owin.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Owin.Security.Cookies.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Owin.Security.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Owin.Security.Facebook.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Owin.Security.Google.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Owin.Security.OAuth.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Owin.Security.Twitter.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Web.Infrastructure.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Newtonsoft.Json.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Owin.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\System.Web.Helpers.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\System.Web.Mvc.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\System.Web.Optimization.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\System.Web.Razor.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\System.Web.WebPages.Deployment.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\System.Web.WebPages.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\System.Web.WebPages.Razor.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\WebGrease.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Facebook.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Owin.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Owin.Security.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Owin.Security.Facebook.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Newtonsoft.Json.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\System.Web.Helpers.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\System.Web.Mvc.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\System.Web.Optimization.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\System.Web.Razor.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\System.Web.WebPages.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\System.Web.WebPages.Deployment.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\System.Web.WebPages.Razor.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Antlr3.Runtime.pdb
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\EntityFramework.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\EntityFramework.SqlServer.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Core.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Owin.Security.Cookies.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Owin.Security.OAuth.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Owin.Security.Google.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Owin.Security.Twitter.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.ApplicationInsights.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.AI.DependencyCollector.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.AI.WindowsServer.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\Microsoft.AI.Web.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\obj\Debug\FacebookLoginTesting.csprojResolveAssemblyReference.cache
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\obj\Debug\FacebookLoginTesting.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\obj\Debug\FacebookLoginTesting.pdb
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\PagedList.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\PagedList.Mvc.dll
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\PagedList.xml
+E:\UOG\Web\AssignmentProject MVC\real assignment\Cookit_real_main\FacebookLoginTesting\bin\PagedList.Mvc.xml

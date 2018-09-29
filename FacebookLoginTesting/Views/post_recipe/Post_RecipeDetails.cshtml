@@ -1,0 +1,62 @@
+﻿@model FacebookLoginTesting.Models.Post_RecipeIngredientInstructionVM
+@{
+    ViewBag.Title = "Post_RecipeDetails";
+}
+
+<h2>Post_RecipeDetails</h2>
+
+<div>
+    @*<dl class="dl-horizontal text-left">
+            <dt>
+                Image
+            </dt>
+
+            <dd>
+                <img src="~/Images/@Model.Image" style="width:100px;" alt="@Model.recipe_name" />
+            </dd>
+            <dt>
+                <img src="~/Images/@Model.Image" width="300" height="180" alt="@Model.recipe_name" />
+            </dt>
+            <dd>
+
+            </dd>
+        </dl>*@
+    <table>
+        <tr>
+            <td>
+                <img src="~/normal_images/@Model.post_ImageName" width="300" height="180" alt="@Model.post_recipe_name" />
+            </td>
+        </tr>
+    </table>
+</div>
+
+<hr />
+<h3>Ingredients</h3>
+<hr />
+<table>
+    @foreach (var item in Model.post_ingredient)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(model => item.post_ingredient_name)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.post_ingredient_amount)
+            </td>
+        </tr>
+    }
+</table>
+
+<hr />
+<h3>Instructions</h3>
+<hr />
+<table>
+    @foreach (var item in Model.post_instruction)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(model => item.post_instruction_detail)
+            </td>
+        </tr>
+    }
+</table>

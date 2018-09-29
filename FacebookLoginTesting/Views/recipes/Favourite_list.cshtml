@@ -1,0 +1,43 @@
+﻿@model IEnumerable<FacebookLoginTesting.Models.fav_recipe>
+
+@{
+    ViewBag.Title = "Favourite_list";
+}
+
+<h2>Favourite_list</h2>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<table class="table">
+    @*<tr>
+        <th>
+            @Html.DisplayNameFor(model => model.recipe.ImageName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_list.username)
+        </th>
+        <th></th>
+    </tr>*@
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            <img src="~/Images/@item.recipe.ImageName" width="200" height="170" class="img-thumbnail" /><br />
+            @*@Html.DisplayFor(modelItem => item.recipe.ImageName)*@
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.recipe.recipe_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.user_list.username)
+        </td>
+        <td>
+            @*@Html.ActionLink("Edit", "Edit", new { id=item.fav_recipe_id }) |*@
+            @Html.ActionLink("RecipeDetails", "RecipeDetails", new { id = item.recipe_id }) |
+            @Html.ActionLink("Delete", "Favourite_delete", new { id=item.fav_recipe_id })
+        </td>
+    </tr>
+}
+
+</table>

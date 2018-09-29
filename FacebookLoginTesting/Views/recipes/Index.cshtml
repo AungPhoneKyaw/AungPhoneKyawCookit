@@ -1,0 +1,171 @@
+﻿
+@*@model IEnumerable<FacebookLoginTesting.Models.recipe>*@
+@model IEnumerable<FacebookLoginTesting.Models.FavouriteRecipeVM>
+
+@using PagedList.Mvc;
+
+@*@{
+    ViewBag.Title = "Index";
+    
+}*@
+<head>
+    <link href="~/CSS/index_recipe.css" rel="stylesheet" />
+</head>
+
+
+
+
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/index.js"></script>
+@*<div class="banner">
+    <div class="container inner_banner text-center">
+        <h1 class="banner-text">
+            Your Ultimate Myanmar Recipe Guide!
+        </h1>
+        <h4 class="banner-text-slogan">Have a taste of the Myanmar Traditional Foods Here</h4>
+    </div>
+</div>*@
+
+    <div class="row text-center">
+        <h2>Our Myanmar Recipes!</h2>
+    </div>
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+
+
+
+
+    @using (Html.BeginForm("Index", "recipes", FormMethod.Get))
+    {
+        <div class="row search_recipe text-center">
+            <div class="search_bar">
+                @Html.TextBox("search") @*<input type="submit" value="Search" />*@<button type="submit" class="btn btn-danger" value="Search">Search</button>
+            </div>
+        </div>
+    }
+@using (Html.BeginForm("Index", "recipes", FormMethod.Get))
+{
+    <div class="row search_recipe text-center">
+        <div class="search_bar">
+            @Html.RadioButton("filterBy", "Chicken") Chicken
+            @Html.RadioButton("filterBy", "Fish") Fish
+            @Html.RadioButton("filterBy", "Seafood") Seafood
+            @Html.RadioButton("filterBy", "Salad") Salad
+            <button type="submit" class="btn btn-primary" value="chicken" onclick="">Filter</button>
+        </div>
+    </div>
+}
+    
+    @if (Model.Count() == 0)
+    {
+        <div class="row">
+            <h3>There is no recipe with that name!</h3>
+        </div>
+    }
+@*<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ImageName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ImagePath)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.recipe_name)
+        </th>
+        <th></th>
+    </tr>
+</table>*@
+    <div class="row text-center">
+        @foreach (var item in Model)
+        {
+            <div class="col-xs-12 col-sm-3">
+                <div class="content_recipe">
+                    <img src="~/Images/@item.ImageName" width="200" height="170" class="img-thumbnail" /><br />
+                    @*@Html.DisplayFor(modelItem => item.ImageName)
+                     @Html.DisplayFor(modelItem => item.ImagePath)*@
+                    @Html.DisplayFor(modelItem => item.recipe_name)<br />
+                    @*@Html.ActionLink("Edit", "Edit", new { id = item.recipe_id }) |*@
+                    @Html.ActionLink("RecipeDetails", "RecipeDetails", new { id = item.recipe_id }) |
+                    @*@Html.ActionLink("Delete", "Delete", new { id = item.recipe_id })*@
+                    Add to Favourite
+                    @{string checkvalue = (item.favourite) ? "checked" : "";}
+                    @*<button type="button" id="@item.recipe_id" name="@item.recipe_id" class="favorite" >Add to Fav</button>*@ 
+                        <input type="checkbox" id="@item.recipe_id" name="@item.recipe_id" class="favorite" @checkvalue />
+</div>
+                
+            </div>
+        }
+    </div>
+
+<div class="page-header">
+    <h1>Social & <small>Comment session</small></h1>
+</div>
+    <div class="instructor text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 avatar text-center">
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCook-It-881088705422500%2F%3Fmodal%3Dadmin_todo_tour&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=2175113322773843" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="well content">
+                        <div class="ex1">
+                            <div class="fb-comments" data-href="http://localhost:53076/recipes/Index#_=_" data-numposts="5"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @*<div class="row text-center">
+        
+        <div class="col-xs-6 col-md-4">
+            
+        </div>
+       
+    </div>
+    <div class="row text-center">
+        <div class="col-xs-12 col-sm-6 col-md-8">
+            
+        </div>
+    </div>*@
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+        <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+        <script>
+         $(function () {
+             $('.favorite').change(function () {
+                var recipeid = $(this).attr('id');
+                var ischecked = $(this).is(':checked');
+                var action = (!ischecked) ? "remove" : "add";
+                 alert(action);
+                //alert('changed >> ' + listid);
+                 $.ajax({
+                    url: "@Url.Action("Favorite")",
+                    type: "POST",
+                    data: { recipeid: recipeid, action: action },
+                    error: function (response) {
+                        alert(json.stringify(jsonObject));
+                    },
+                    success: function (response) {
+                        if (response == "Invalid User!") alert("Please Login First!");
+                        console.log(response);
+                    }
+                });
+             });
+        });
+        </script>
+
+        <div id="fb-root"></div>
+        <script>
+            (function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s); js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=2175113322773843&autoLogAppEvents=1';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+    }

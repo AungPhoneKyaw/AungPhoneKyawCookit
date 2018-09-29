@@ -1,0 +1,235 @@
+﻿@model IEnumerable<FacebookLoginTesting.Models.grocery_list>
+
+    @{
+        ViewBag.Title = "GrocerySave";
+    }
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Signika+Negative" rel="stylesheet">
+</head>
+    <style>
+        body {
+            font-family: 'Signika Negative', sans-serif;
+        }
+        .grocerylist {
+            width: 700px;
+            height: 400px;
+            background-color: orange;
+            padding-top: 20px;
+            
+        }
+        .glocerylist_scroll {
+            background-color: #ffbc3a;
+            width: auto;
+            height: 400px;
+            overflow: auto;
+            padding-top: 20px;
+            /*padding-left: 173px;*/
+            border: 1px solid;
+            border-color: #f28e00;
+            border-radius: 5px;
+        }
+        .todo_div {
+            /*padding-left: 190px;*/
+            text-align: center;
+        }
+        .gimg_container {
+            /*padding-left: 205px;*/
+            text-align: center;
+        }
+        .grocerylist_img {
+            background-color: transparent;
+            border: none;
+            width: 105px;
+            height: 120px;
+        }
+        .button_style {
+            /*padding-left:40px;*/
+            padding-top: 10px;
+            text-align: center;
+        }
+        .gul_list {
+            background-color: white;
+            text-decoration: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 0px;
+            list-style: none;
+        }
+        .g_list {
+            width: auto;
+            background-color: white;
+            text-decoration: none;
+            list-style: none;
+            /*border-bottom: solid 1px;*/
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    </style>
+
+    
+
+    @*@using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+
+        <fieldset style="background-color:#ffffff">
+            <legend>Contact Info</legend>
+            <div style="padding:20px;">
+                <div class="editor-label">
+                    Contact Name
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.grocery_item)
+                    })
+                    @Html.ValidationMessageFor(model => model.grocery_item)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.grocery_amount)
+                    @Html.ValidationMessageFor(model => model.grocery_amount)
+                </div>
+
+                <p>
+                    <input type="button" value="Save" id="click1" />
+                </p>
+
+        </fieldset>
+    }*@
+        <h2>GrocerySave</h2>
+
+<div class="instructor">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="well content">
+                    <div class="glocerylist_scroll">
+                        <div class="gimg_container">
+                            <img src="~/background_images/25.png" class="img-thumbnail grocerylist_img" />
+                        </div>
+                        <div class="todo_div">
+                            <form name="toDoList">
+                                <p>Item Name:</p>
+                                <input type="text" name="grocery_item" id="grocery_item" />
+                                <p>Amount:</p>
+                                <input type="text" name="grocery_amount" id="grocery_amount" />
+                            </form>
+                            <div class="button_style">
+                                <div id="Add" class="btn text-center">Add</div>
+                            </div>
+
+                            <br />
+                        </div>
+
+                        @if (@Model != null)
+                        {
+                            <ol class="gul_list text-center">
+                                @foreach (var item in Model)
+                                {
+                                    <li class="g_list" id="@item.grocery_id">
+                                        @Html.DisplayFor(modelItem => item.grocery_item) >> @Html.DisplayFor(modelItem => item.grocery_amount)
+                                        @*| <button class="delete">DELETE</button>*@
+                                    </li>
+                                }
+                            </ol>
+
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-8">
+            
+        </div>   
+    </div>
+       
+        
+    
+
+    @*<div>
+        @Html.ActionLink("Back to List", "Index")
+    </div>*@
+
+    @section Scripts {
+        @Scripts.Render("~/bundles/jqueryval")
+        <script src="~/Scripts/jquery-3.0.0.min.js"></script>
+
+        <script>
+    $(document).ready(function () {
+             $('#Add').click(function (e) {
+                var gg = $('#grocery_item').val();
+                var gg2 = $('#grocery_amount').val();
+                if (gg != "" && gg2 != "") {
+                    var jsonObject = {
+                        "Grocery_item": gg,
+                        "Grocery_amount": gg2
+                    };
+                     $.ajax({
+                        url: "@Url.Action("GrocerySave")",
+                        type: "POST",
+                        data: JSON.stringify(jsonObject),
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        error: function (response) {
+                            alert(json.stringify(jsonObject));
+                        },
+                        success: function (response) {
+                            //alert(response);
+                            var grocery_item = $('input[name=grocery_item]').val();
+                            var grocery_amount = $('input[name=grocery_amount]').val();
+                            $('ol').append('<li id=' + response + '>' + grocery_item + " >> " + grocery_amount + '</li>');
+                            $('#grocery_item').val() = "";
+                            $('#grocery_amount').val() = "";
+                            alert(response);
+                        }
+                    });
+                }
+                else {
+                    alert("The textfield is empty");
+                    return false;
+                }
+            });
+             //$("input[name=grocery_amount]").keyup(function (event) {
+            //    if (event.keyCode == 13) {
+            //        $("#Add").click();
+            //    }
+            //});
+             $('.delete').click(function () {
+                var gid = $(this).closest('li').attr('id');
+                $.ajax({
+                    url: "@Url.Action("GroceryDelete")",
+                    type: "POST",
+                    data: { groceryid: gid },
+                    error: function (response) {
+                        alert(json.stringify(jsonObject));
+                    },
+                    success: function (response) {
+                        alert(response);
+                    }
+                });
+                 $(this).closest('li').toggleClass('strike').fadeOut('slow');
+
+            });
+             $(document).on('dblclick', 'li', function () {
+                var gid = $(this).attr('id');
+                $.ajax({
+                    url: "@Url.Action("GroceryDelete")",
+                    type: "POST",
+                    data: { groceryid: gid },
+                    error: function (response) {
+                        alert(json.stringify(jsonObject));
+                    },
+                    success: function (response) {
+                        alert(response);
+                    }
+                });
+                 $(this).toggleClass('strike').fadeOut('slow');
+            });
+         $('input').focus(function () {
+            $(this).val('');
+        });
+             $('ol').sortable();
+    });
+</script>
+    }

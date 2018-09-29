@@ -1,0 +1,43 @@
+﻿body {
+}
+.banner {
+    background-image: url('../background_images/foodblur.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    height: 300px;
+    padding-top: 50px;
+}
+
+.banner-text {
+    text-shadow: 2px 2px black;
+}
+
+.banner-text-slogan {
+    text-shadow: 1px 1px black;
+    color: orange;
+}
+.navbar-inverse {
+    background-color: #6e6e6e;
+    border-color: #6e6e6e;
+    color: white;
+    font-family: 'Francois One', sans-serif;
+    font-size: 15px;
+}
+.navbar-inverse .navbar-nav > li > a {
+        color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+        color: #ffb85c;
+}
+.navbar-inverse .navbar-brand {
+   color: white;
+}
+.navbar > .container .navbar-brand {
+    background-color: orange;
+}
+.logo {
+    height: 50px;
+    width: 60px;
+}

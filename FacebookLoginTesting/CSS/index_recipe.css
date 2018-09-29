@@ -1,0 +1,24 @@
+﻿body {
+}
+.search_recipe {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.img-thumbnail {
+    height: 150px;
+}
+.content_recipe {
+    padding-bottom: 20px;
+}
+/*.btn-danger {
+    background-color: blue;
+}*/
+.ex1 {
+    background-color: white;
+    width: auto;
+    height: 500px;
+    overflow: scroll;
+}
+.well {
+    
+}

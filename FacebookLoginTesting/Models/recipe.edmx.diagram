@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ac318d88744a449ead08f4074424152a" Name="Diagram1">
+        <EntityTypeShape EntityType="cookingapp_latestModel.calorie" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="cookingapp_latestModel.grocery_list" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="cookingapp_latestModel.ingredient" Width="1.5" PointX="10" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="cookingapp_latestModel.instruction" Width="1.5" PointX="10" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="cookingapp_latestModel.post_ingredient" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="cookingapp_latestModel.post_instruction" Width="1.5" PointX="5.25" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="cookingapp_latestModel.post_recipe" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="cookingapp_latestModel.recipe" Width="1.5" PointX="7.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="cookingapp_latestModel.user_list" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <AssociationConnector Association="cookingapp_latestModel.FK__grocery_l__useri__1F98B2C1" ManuallyRouted="false" />
+        <AssociationConnector Association="cookingapp_latestModel.FK__ingredien__recip__17036CC0" ManuallyRouted="false" />
+        <AssociationConnector Association="cookingapp_latestModel.FK__instructi__recip__02084FDA" ManuallyRouted="false" />
+        <AssociationConnector Association="cookingapp_latestModel.FK__post_ingr__post___339FAB6E" ManuallyRouted="false" />
+        <AssociationConnector Association="cookingapp_latestModel.FK__post_inst__post___2EDAF651" ManuallyRouted="false" />
+        <AssociationConnector Association="cookingapp_latestModel.FK__post_reci__useri__2A164134" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="cookingapp_latestModel.fav_recipe" Width="1.5" PointX="13" PointY="3.125" />
+        <AssociationConnector Association="cookingapp_latestModel.FK__fav_recip__recip__395884C4" />
+        <AssociationConnector Association="cookingapp_latestModel.FK__fav_recip__useri__3864608B" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

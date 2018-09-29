@@ -1,0 +1,55 @@
+﻿@model IEnumerable<FacebookLoginTesting.Models.post_recipe>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.post_ImageName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.post_ImagePath)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.post_recipe_name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.user_list.username)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            
+            <img src="~/Images/@item.post_ImageName" width="200" height="170" class="img-thumbnail" />
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.post_ImageName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.post_ImagePath)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.post_recipe_name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.user_list.username)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.post_recipe_id }) |
+            @Html.ActionLink("Post_RecipeDetails", "Post_RecipeDetails", new { id=item.post_recipe_id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.post_recipe_id })
+        </td>
+    </tr>
+}
+
+</table>
